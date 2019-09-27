@@ -284,9 +284,9 @@ parameters:
   displayName: PostgreSQL Volume Capacity
   name: POSTGRESQL_VOLUME_CAPACITY
   required: true
-  value: 10Gi
+  value: 100Gi
 - description: Volume space available for SonarQube
   displayName: SonarQube Volume Capacity
   name: SONAR_VOLUME_CAPACITY
   required: true
-  value: 10Gi
+  value: 100Gi
