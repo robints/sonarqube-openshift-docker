@@ -146,6 +146,7 @@ objects:
     resources:
       requests:
         storage: ${SONAR_VOLUME_CAPACITY}
+    storageClassName: alicloud-disk-efficiency
 parameters:
 - displayName: SonarQube version
   value: "6.7"
