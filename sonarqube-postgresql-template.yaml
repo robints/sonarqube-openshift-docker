@@ -257,6 +257,7 @@ objects:
     resources:
       requests:
         storage: ${POSTGRESQL_VOLUME_CAPACITY}
+    storageClassName: alicloud-disk-efficiency
 - apiVersion: v1
   kind: PersistentVolumeClaim
   metadata:
@@ -267,6 +268,7 @@ objects:
     resources:
       requests:
         storage: ${SONAR_VOLUME_CAPACITY}
+    storageClassName: alicloud-disk-efficiency
 parameters:
 - displayName: SonarQube version
   value: "6.7"
